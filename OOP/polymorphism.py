@@ -2,7 +2,7 @@ class Animal:
     def move(self):
         pass
 
-class Dog(Animal):
+class Cat(Animal):
     def move(self):
         return "Walking"
 
@@ -14,8 +14,8 @@ class Fish(Animal):
     def move(self):
         return "Swimming"
 
-# Example usage
-animals = [Dog(), Bird(), Fish()]
+# Example 
+animals = [Cat(), Bird(), Fish()]
 
 for animal in animals:
     print(f"{animal.__class__.__name__}: {animal.move()}")

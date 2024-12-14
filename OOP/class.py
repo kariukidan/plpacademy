@@ -1,4 +1,4 @@
-# Base class
+# class
 class Smartphone:
     def __init__(self, brand, model, storage, price):
         self.brand = brand
@@ -24,7 +24,7 @@ class Smartwatch(Smartphone):
     def track_steps(self, steps):
         return f"Tracked {steps} steps today on {self.model}."
 
-# Example usage
+# Example
 phone = Smartphone("Tecno", "Camon 20", 256, 30000)
 watch = Smartwatch("Infinix", "Q30", 32, 3999, 47)
 
